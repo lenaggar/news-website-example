@@ -1,0 +1,39 @@
+.hot_news__wrapper {
+  padding: 16px;
+}
+
+.hot_news__list {
+}
+
+.hot_news__list_item {
+  margin-bottom: 12px;
+}
+
+.hot_news__list_item > a {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.hot_news__list_item_dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.hot_news__list_item_title {
+}
+
+.hot_news__list_item_loading {
+  height: 24px;
+  width: 100%;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+
+.headline__loading {
+  border-radius: 5px;
+  min-height: 300px;
+  margin-bottom: 12px;
+}
