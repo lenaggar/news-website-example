@@ -52,6 +52,10 @@ export const HotNews: React.FC<HotNewsProps> = ({ news }) => {
               // href={news.url}
             >
               <div className={styles.hot_news__list_item_dot} />
+              <div
+                className={styles.hot_news__list_item_image}
+                style={{ background: record.color }}
+              />
               <span className={styles.hot_news__list_item_title}>
                 {record.title}
               </span>

@@ -1,2 +1,10 @@
 .homepage {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (min-width: 901px) {
+  .homepage {
+    display: flex;
+  }
 }

@@ -1,5 +1,12 @@
 .timeline {
-  padding: 0 16px;
+  padding: 16px;
+  max-width: 480px;
+}
+
+.timeline__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .timeline__list {
@@ -9,7 +16,7 @@
 }
 
 .timeline__list_item {
-  padding: 4px 12px 4px 4px;
+  padding: 4px 20px 4px 4px;
   position: relative;
   margin-bottom: 24px;
 }
@@ -57,4 +64,10 @@
   position: absolute;
   top: 8px;
   left: -72px;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline {
+    display: none;
+  }
 }

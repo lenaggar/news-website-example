@@ -15,6 +15,7 @@ export const NewsTimeline: React.FC<NewsTimelineProps> = ({ news }) => {
 
   return (
     <aside className={styles.timeline}>
+      <h2 className={styles.timeline__title}>Just Now</h2>
       <ul className={styles.timeline__list}>
         {news.map((record) => (
           <li key={record.id} className={styles.timeline__list_item}>

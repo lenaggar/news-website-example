@@ -29,3 +29,14 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+@media screen and (max-width: 900px) {
+  .headline__wrapper {
+    margin-right: -16px;
+    margin-left: -16px;
+  }
+
+  .headline__image_background {
+    border-radius: 0;
+  }
+}

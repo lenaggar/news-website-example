@@ -16,8 +16,12 @@ export function useNews() {
   React.useEffect(() => {
     fetch("./newsSource.csv")
       .then((response) => {
-        console.log(response);
-        return response.text();
+        if (response.status === 200) {
+          return response.text();
+        }
+
+        // handle different errors here
+        throw new Error("some error");
       })
       // casting the return type here 👇🏻 as I already know what to expect from the data-source
       .then((csvText) => csvToJson(csvText) as NewsRecord[])
