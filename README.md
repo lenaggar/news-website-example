@@ -14,12 +14,8 @@ This is a simple FE react app created with [vite.js](https://vitejs.dev/) that d
 
 [how to run]: #how-to-run
 
-There are 2 ways to run this app:
-
-1. I have already deployed the latest build to github-pages under [lenaggar.github.io/news-website-example](https://lenaggar.github.io/news-website-example/). Please let me know if it's not working.
-
-2. The second way is to clone the repo locally, install the dependencies, and start the app.
-   All you need to do after cloning the repo locally is to run `npm install && npm run preview`. That's it!
+Clone the repo locally, install the dependencies, and start the app.
+All you need to do after cloning the repo locally is to run `npm install && npm run preview` then open the url in the terminal. That's it!
 
 ## ToDo
 
